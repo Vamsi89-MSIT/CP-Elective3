@@ -1,0 +1,11 @@
+{
+    "settings.json": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Mon Jul 12 2021 22:39:39",
+            "keyStrokeInfo": "{\r\n    \"python.analysis.extraPaths\": [\r\n        \"./10-handtodice-Python\"\r\n    ]\r\n}",
+            "position": "1,1"
+        }
+    ]
+}

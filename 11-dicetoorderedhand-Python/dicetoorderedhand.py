@@ -12,4 +12,7 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	pass
+	l = max(a,b,c)
+	s = min(a,b,c)
+	m = a + b + c - l - s
+	return l*100 + m*10 + s
