@@ -1,0 +1,95 @@
+{
+    "set_kth_digit.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:53:09",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "9,32"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:53:27",
+            "keyStrokeInfo": "flag = False\r\n    if(n < 0):\r\n        n = -n\r\n        flag = True\r\n    count = 0\r\n    res = 0\r\n    while(count<=k or n > 0):\r\n        r = n % 10\r\n        if count == k:\r\n            res = res + (d * (10 ** count))\r\n        else:\r\n            res = res + (r * (10 ** count))\r\n        count += 1\r\n        n = n // 10\r\n    \r\n    if flag:\r\n        res = -res\r\n   \r\n    return res",
+            "position": "10,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:53:59",
+            "keyStrokeInfo": "    ",
+            "position": "29,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:04",
+            "keyStrokeInfo": "",
+            "position": "29,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:04",
+            "keyStrokeInfo": "",
+            "position": "29,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:04",
+            "keyStrokeInfo": "",
+            "position": "29,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:04",
+            "keyStrokeInfo": "",
+            "position": "29,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:04",
+            "keyStrokeInfo": "",
+            "position": "29,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:04",
+            "keyStrokeInfo": "",
+            "position": "29,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:05",
+            "keyStrokeInfo": "",
+            "position": "29,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:05",
+            "keyStrokeInfo": "",
+            "position": "29,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:05",
+            "keyStrokeInfo": "",
+            "position": "29,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 22:54:05",
+            "keyStrokeInfo": "",
+            "position": "29,1"
+        }
+    ]
+}
