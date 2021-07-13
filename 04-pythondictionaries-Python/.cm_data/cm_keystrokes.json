@@ -1,0 +1,18 @@
+{
+    "pythondictionaries.py": [
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 20:01:04",
+            "keyStrokeInfo": "def sortUSA():\r\n    usa_sorted = sorted(locations['North America']['USA'])\r\n    for city in usa_sorted:\r\n        return city\r\n\r\ndef alphaAsia():\r\n    asia_cities = []\r\n    for countries, cities in locations['Asia'].iteritems():\r\n        city_country = cities[0] + \" - \" + countries \r\n        asia_cities.append(city_country)\r\n        asia_sorted = sorted(asia_cities)\r\n        for city in asia_sorted:\r\n            return city\r\n\r\n# Note: Check for test cases to understand the output format.\r\nlocations = {'North America': {'USA': ['Mountain View']}}\r\n",
+            "position": "34,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 20:04:04",
+            "keyStrokeInfo": "\r\n    '''Return all the cities in the USA in alphabetical order'''\r\n    pass\r\n\r\ndef alphaAsia():\r\n    '''Return all the cities in Asia continent in alphabetical order'''\r\n    pass\r\n\r\n# Note: Check for test cases to understand the output format.\r\nlocations = {'North America': {'USA': ['Mountain View']}}",
+            "position": "34,15"
+        }
+    ]
+}
