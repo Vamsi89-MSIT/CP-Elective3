@@ -1,0 +1,167 @@
+{
+    "queues.py": [
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 23:47:22",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None): \r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        self.storage.append(new_element) #adding new element at the tail of the queue\r\n\r\n    def peek(self):\r\n        return self.storage[0]  #returing the top element with out deleting it fron the queue\r\n    def dequeue(self):\r\n        return self.storage.pop(0)  #it delete the top element",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:37:38",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:37:39",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:37:40",
+            "keyStrokeInfo": "    ",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:37:51",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:37:51",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:37:52",
+            "keyStrokeInfo": "    ",
+            "position": "12,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:38:04",
+            "keyStrokeInfo": "    ",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:39:06",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:41:14",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None): \r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        self.storage.append(new_element) #adding new element at the tail of the queue\r\n\r\n    def peek(self):\r\n        return self.storage[0]  #returing the top element with out deleting it fron the queue\r\n    def dequeue(self):\r\n        return self.storage.pop(0)  #it delete the top element",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:41:14",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None): \r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        self.storage.append(new_element) #adding new element at the tail of the queue\r\n\r\n    def peek(self):\r\n        return self.storage[0]  #returing the top element with out deleting it fron the queue\r\n    def dequeue(self):\r\n        return self.storage.pop(0)  #it delete the top element",
+            "position": "17,63"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:41:16",
+            "keyStrokeInfo": "",
+            "position": "17,63"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:43:07",
+            "keyStrokeInfo": "_",
+            "position": "8,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:43:08",
+            "keyStrokeInfo": "",
+            "position": "8,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:43:39",
+            "keyStrokeInfo": "_",
+            "position": "8,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:43:41",
+            "keyStrokeInfo": "_",
+            "position": "8,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:44:21",
+            "keyStrokeInfo": "",
+            "position": "12,42"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:44:26",
+            "keyStrokeInfo": "",
+            "position": "14,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:44:30",
+            "keyStrokeInfo": "",
+            "position": "16,37"
+        }
+    ],
+    "test_solution.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:42:24",
+            "keyStrokeInfo": "",
+            "position": "12,33"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:42:27",
+            "keyStrokeInfo": "",
+            "position": "12,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:42:34",
+            "keyStrokeInfo": "\"",
+            "position": "12,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 09:42:36",
+            "keyStrokeInfo": "\"",
+            "position": "12,33"
+        }
+    ]
+}

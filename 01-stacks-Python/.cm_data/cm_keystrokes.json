@@ -1,0 +1,32 @@
+{
+    "stacks.py": [
+        {
+            "operation": "PASTE",
+            "lines": 41,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 23:29:34",
+            "keyStrokeInfo": "class Element(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.next = None\r\n        \r\nclass LinkedList(object):\r\n    def _init_(self, head=None):\r\n        self.head = head\r\n        \r\n    def append(self, new_element):\r\n        current = self.head\r\n        if self.head:\r\n            while current.next:\r\n                current = current.next\r\n            current.next = new_element\r\n        else:\r\n            self.head = new_element\r\n\r\n    def insert_first(self, new_element):\r\n        new_element.next = self.head\r\n        self.head = new_element\r\n\r\n    def delete_first(self):\r\n        deleted = self.head\r\n        if self.head:\r\n            self.head = self.head.next\r\n            deleted.next = None\r\n        return deleted\r\n\r\nclass stack(object):\r\n    def _init_(self,top=None):\r\n        self.ll = LinkedList(top)\r\n\r\n    def push(self, new_element):\r\n        \"Push (add) a new element onto the top of the stack\"\r\n        self.ll.insert_first(new_element)\r\n\r\n\r\n    def pop(self):\r\n        \"Pop (remove) the first element off the top of the stack and return it\"\r\n        return self.ll.delete_first()",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 36,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 23:45:19",
+            "keyStrokeInfo": "\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.next = None\r\n        \r\nclass LinkedList(object):\r\n    def __init__(self, head=None):\r\n        self.head = head\r\n        \r\n    def append(self, new_element):\r\n        current = self.head\r\n        if self.head:\r\n            while current.next:\r\n                current = current.next\r\n            current.next = new_element\r\n        else:\r\n            self.head = new_element\r\n\r\n    def insert_first(self, new_element):\r\n        \"Insert new element as the head of the LinkedList\"\r\n        pass\r\n\r\n    def delete_first(self):\r\n        \"Delete the first (head) element in the LinkedList as return it\"\r\n        pass\r\n\r\nclass stack(object):\r\n    def __init__(self,top=None):\r\n        self.ll = LinkedList(top)\r\n\r\n    def push(self, new_element):\r\n        \"Push (add) a new element onto the top of the stack\"\r\n        pass\r\n\r\n    def pop(self):\r\n        \"Pop (remove) the first element off the top of the stack and return it\"\r\n        pass\r\n    ",
+            "position": "9,23"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 23:45:27",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None): \r\n        self.storage = [head]\r\n\r\n    def enqueue(self, new_element):\r\n        self.storage.append(new_element) #adding new element at the tail of the queue\r\n\r\n    def peek(self):\r\n        return self.storage[0]  #returing the top element with out deleting it fron the queue\r\n    def dequeue(self):\r\n        return self.storage.pop(0)  #it delete the top element",
+            "position": "35,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 23:47:11",
+            "keyStrokeInfo": "",
+            "position": "35,1"
+        }
+    ]
+}
