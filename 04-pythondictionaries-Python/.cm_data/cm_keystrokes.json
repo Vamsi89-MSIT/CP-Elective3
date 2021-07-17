@@ -1,0 +1,32 @@
+{
+    "pythondictionaries.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:11:55",
+            "keyStrokeInfo": "",
+            "position": "56,27"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:11:55",
+            "keyStrokeInfo": "",
+            "position": "56,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:11:57",
+            "keyStrokeInfo": "c",
+            "position": "56,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 11:11:57",
+            "keyStrokeInfo": "a",
+            "position": "56,27"
+        }
+    ]
+}
