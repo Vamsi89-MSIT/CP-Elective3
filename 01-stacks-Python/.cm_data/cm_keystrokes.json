@@ -1,0 +1,60 @@
+{
+    "stacks.py": [
+        {
+            "operation": "DELETE",
+            "lines": 37,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:33:22",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 41,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:33:23",
+            "keyStrokeInfo": "class Element(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.next = None\r\n        \r\nclass LinkedList(object):\r\n    def _init_(self, head=None):\r\n        self.head = head\r\n        \r\n    def append(self, new_element):\r\n        current = self.head\r\n        if self.head:\r\n            while current.next:\r\n                current = current.next\r\n            current.next = new_element\r\n        else:\r\n            self.head = new_element\r\n\r\n    def insert_first(self, new_element):\r\n        new_element.next = self.head\r\n        self.head = new_element\r\n\r\n    def delete_first(self):\r\n        deleted = self.head\r\n        if self.head:\r\n            self.head = self.head.next\r\n            deleted.next = None\r\n        return deleted\r\n\r\nclass stack(object):\r\n    def _init_(self,top=None):\r\n        self.ll = LinkedList(top)\r\n\r\n    def push(self, new_element):\r\n        \"Push (add) a new element onto the top of the stack\"\r\n        self.ll.insert_first(new_element)\r\n\r\n\r\n    def pop(self):\r\n        \"Pop (remove) the first element off the top of the stack and return it\"\r\n        return self.ll.delete_first()",
+            "position": "9,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:40:19",
+            "keyStrokeInfo": "_",
+            "position": "39,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:40:22",
+            "keyStrokeInfo": "_",
+            "position": "39,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:40:26",
+            "keyStrokeInfo": "_",
+            "position": "15,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:40:29",
+            "keyStrokeInfo": "_",
+            "position": "15,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:40:33",
+            "keyStrokeInfo": "_",
+            "position": "10,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 09:40:35",
+            "keyStrokeInfo": "_",
+            "position": "10,15"
+        }
+    ]
+}
