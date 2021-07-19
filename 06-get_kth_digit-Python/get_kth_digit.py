@@ -7,3 +7,5 @@
 import math
 def fun_get_kth_digit(digit, k):
 	return (int((abs(digit)) // (math.pow(10,k))%10))
+	
+		
