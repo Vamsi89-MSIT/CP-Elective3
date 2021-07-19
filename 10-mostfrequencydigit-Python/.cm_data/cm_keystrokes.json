@@ -1,0 +1,123 @@
+{
+    "mostfrequentdigit.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:08",
+            "keyStrokeInfo": "",
+            "position": "7,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:08",
+            "keyStrokeInfo": "",
+            "position": "7,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:09",
+            "keyStrokeInfo": "",
+            "position": "7,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:09",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:10",
+            "keyStrokeInfo": "def digitcount(i , n):\r\n\tcount = 0\r\n\twhile(n > 0):\r\n\t\ta = n % 10\r\n\t\tif(a == i):\r\n\t\t\tcount = count + 1\r\n\t\tn = n //10\r\n\treturn count\r\ndef mostFrequentDigit(n):\r\n\tdigit = -1\r\n\tfrequency = -1\r\n\tfor i in range(0 , 10):\r\n\t\tcount = digitcount(i , n)\r\n\t\tif(count > frequency):\r\n\t\t\tfrequency = count\r\n\t\t\tdigit = i\t\t\t\r\n\treturn digit\r\n",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:15",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:17",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:18",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:19",
+            "keyStrokeInfo": "def digitcount(i , n):\r\n\tcount = 0\r\n\twhile(n > 0):\r\n\t\ta = n % 10\r\n\t\tif(a == i):\r\n\t\t\tcount = count + 1\r\n\t\tn = n //10\r\n\treturn count\r\ndef mostFrequentDigit(n):\r\n\tdigit = -1\r\n\tfrequency = -1\r\n\tfor i in range(0 , 10):\r\n\t\tcount = digitcount(i , n)\r\n\t\tif(count > frequency):\r\n\t\t\tfrequency = count\r\n\t\t\tdigit = i\t\t\t\r\n\treturn digit\r\n",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:24:25",
+            "keyStrokeInfo": "# ",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:25:44",
+            "keyStrokeInfo": "def digitcount(i , n):\r\n\tcount = 0\r\n\twhile(n > 0):\r\n\t\ta = n % 10\r\n\t\tif(a == i):\r\n\t\t\tcount = count + 1\r\n\t\tn = n //10\r\n\treturn count\r\ndef mostfrequentdigit(n):\r\n\tdigit = -1\r\n\tfrequency = -1\r\n\tfor i in range(0 , 10):\r\n\t\tcount = digitcount(i , n)\r\n\t\tif(count > frequency):\r\n\t\t\tfrequency = count\r\n\t\t\tdigit = i\t\t\t\r\n\treturn digit\r\n",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:29:39",
+            "keyStrokeInfo": "",
+            "position": "18,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:29:40",
+            "keyStrokeInfo": "",
+            "position": "18,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:29:42",
+            "keyStrokeInfo": "0",
+            "position": "18,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:30:01",
+            "keyStrokeInfo": "",
+            "position": "17,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:30:01",
+            "keyStrokeInfo": "",
+            "position": "17,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 10:30:02",
+            "keyStrokeInfo": "0",
+            "position": "17,10"
+        }
+    ]
+}
