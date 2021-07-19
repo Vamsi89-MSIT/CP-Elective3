@@ -1,0 +1,60 @@
+{
+    "isperfectsquare.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:22",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:22",
+            "keyStrokeInfo": "",
+            "position": "8,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:22",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:22",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:27",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:28",
+            "keyStrokeInfo": "",
+            "position": "7,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 20:00:28",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "7,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 21:15:11",
+            "keyStrokeInfo": "\tpass\r\n",
+            "position": "8,1"
+        }
+    ]
+}
