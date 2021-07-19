@@ -6,6 +6,13 @@
 
 import math
 def fun_get_kth_digit(digit, k):
-	return (int((abs(digit)) // (math.pow(10,k))%10))
+    if digit < 0:
+        digit = digit * -1
+        return (digit // (10 ** k)%10)
+    elif digit > 0:
+        return (digit // (10 ** k)%10)
+    else:
+        return 0
+
 	
 		
