@@ -19,4 +19,11 @@
 
 def ishappynumber(n):
 	# your code goes here
-	pass
+	a = 0
+	b = 0
+	while(n > 0):
+		x = n % 10
+		b = b + x*x
+		n = n // 10
+	return b
+	
