@@ -13,9 +13,9 @@ class HashTable(object):
         # Your code goes here
         x = self.calculate_hash_value(string)
         if(self.table[x]!=None):
-            self.table[x]=(string)
+            self.table[x]=(string) #updating hash value
         else:
-            self.table[x]=[string]
+            self.table[x]=[string] #storing hash value if not there
         return x
         
     def lookup(self, string):
@@ -24,7 +24,7 @@ class HashTable(object):
         Return -1 otherwise."""
         # Your code goes here
         x = self.calculate_hash_value(string)
-        if(string in self.table[x]):
+        if(string in self.table[x]):  #checks whether string is there or not in hash value if there return hash value of string
             return x
         return -1
 
