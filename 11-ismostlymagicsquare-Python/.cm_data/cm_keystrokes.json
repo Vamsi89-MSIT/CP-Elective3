@@ -2470,6 +2470,48 @@
             "keyStrokeTimeStamp": "Tue Jul 20 2021 21:44:49",
             "keyStrokeInfo": "a",
             "position": "25,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 09:42:09",
+            "keyStrokeInfo": "",
+            "position": "19,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 09:42:10",
+            "keyStrokeInfo": "x",
+            "position": "19,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 09:42:11",
+            "keyStrokeInfo": "",
+            "position": "20,4"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 09:42:12",
+            "keyStrokeInfo": "y",
+            "position": "20,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 09:54:15",
+            "keyStrokeInfo": "",
+            "position": "31,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 21 2021 09:54:15",
+            "keyStrokeInfo": "i",
+            "position": "31,21"
         }
     ]
 }
