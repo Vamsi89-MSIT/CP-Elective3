@@ -1,0 +1,123 @@
+{
+    "matrixmultiply.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:57",
+            "keyStrokeInfo": "",
+            "position": "8,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:59",
+            "keyStrokeInfo": "",
+            "position": "8,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:59",
+            "keyStrokeInfo": "",
+            "position": "8,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:18:59",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:19:04",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:19:04",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:19:05",
+            "keyStrokeInfo": "",
+            "position": "7,32"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:19:05",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,32"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Fri Jul 23 2021 10:19:07",
+            "keyStrokeInfo": "if(len(m1[0])==len(m2)):\r\n        res = [[0]*len(m2[0]) for i in m1]\r\n        for i in range(len(m1)):\r\n            for j in range(len(m2[0])):\r\n                for k in range(len(m2)):\r\n                    res[i][j] += m1[i][k]*m2[k][j]\r\n    else:\r\n        return None\r\n    return res",
+            "position": "8,5"
+        }
+    ]
+}
