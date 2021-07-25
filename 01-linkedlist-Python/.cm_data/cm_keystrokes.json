@@ -1,0 +1,249 @@
+{
+    "linkedlist.py": [
+        {
+            "operation": "DELETE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 21:52:11",
+            "keyStrokeInfo": "",
+            "position": "17,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 46,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:03:32",
+            "keyStrokeInfo": "def append(self, new_element):\r\n        current = self.head\r\n        if self.head:\r\n            while current.next:\r\n                current = current.next\r\n            current.next = new_element\r\n        else:\r\n            self.head = new_element\r\n            \r\n    def get_position(self, position):\r\n        counter = 1\r\n        current = self.head\r\n        if position < 1:\r\n            return None\r\n        while current and counter <= position:\r\n            if counter == position:\r\n                return current\r\n            current = current.next\r\n            counter += 1\r\n        return None\r\n\r\n    def insert(self, new_element, position):\r\n        counter = 1\r\n        current = self.head\r\n        if position > 1:\r\n            while current and counter < position:\r\n                if counter == position - 1:\r\n                    new_element.next = current.next\r\n                    current.next = new_element\r\n                current = current.next\r\n                counter += 1\r\n        elif position == 1:\r\n            new_element.next = self.head\r\n            self.head = new_element\r\n\r\n    def delete(self, value):\r\n        current = self.head\r\n        previous = None\r\n        while current.value != value and current.next:\r\n            previous = current\r\n            current = current.next\r\n        if current.value == value:\r\n            if previous:\r\n                previous.next = current.next\r\n            else:\r\n                self.head = current.next",
+            "position": "17,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 45,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:05:41",
+            "keyStrokeInfo": "",
+            "position": "17,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 46,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:05:54",
+            "keyStrokeInfo": "def append(self, new_element):\r\n        current = self.head\r\n        if self.head:\r\n            while current.next:\r\n                current = current.next\r\n            current.next = new_element\r\n        else:\r\n            self.head = new_element\r\n            \r\n    def get_position(self, position):\r\n        counter = 1\r\n        current = self.head\r\n        if position < 1:\r\n            return None\r\n        while current and counter <= position:\r\n            if counter == position:\r\n                return current\r\n            current = current.next\r\n            counter += 1\r\n        return None\r\n\r\n    def insert(self, new_element, position):\r\n        counter = 1\r\n        current = self.head\r\n        if position > 1:\r\n            while current and counter < position:\r\n                if counter == position - 1:\r\n                    new_element.next = current.next\r\n                    current.next = new_element\r\n                current = current.next\r\n                counter += 1\r\n        elif position == 1:\r\n            new_element.next = self.head\r\n            self.head = new_element\r\n\r\n    def delete(self, value):\r\n        current = self.head\r\n        previous = None\r\n        while current.value != value and current.next:\r\n            previous = current\r\n            current = current.next\r\n        if current.value == value:\r\n            if previous:\r\n                previous.next = current.next\r\n            else:\r\n                self.head = current.next",
+            "position": "17,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:20",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "16,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:22",
+            "keyStrokeInfo": "d",
+            "position": "17,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:22",
+            "keyStrokeInfo": "e",
+            "position": "17,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:22",
+            "keyStrokeInfo": "f",
+            "position": "17,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:23",
+            "keyStrokeInfo": " ",
+            "position": "17,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:25",
+            "keyStrokeInfo": "_",
+            "position": "17,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:26",
+            "keyStrokeInfo": "_",
+            "position": "17,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:26",
+            "keyStrokeInfo": "i",
+            "position": "17,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:27",
+            "keyStrokeInfo": "n",
+            "position": "17,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:27",
+            "keyStrokeInfo": "i",
+            "position": "17,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:27",
+            "keyStrokeInfo": "t",
+            "position": "17,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:28",
+            "keyStrokeInfo": "_",
+            "position": "17,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:29",
+            "keyStrokeInfo": "_",
+            "position": "17,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:30",
+            "keyStrokeInfo": "()",
+            "position": "17,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:39",
+            "keyStrokeInfo": "\\",
+            "position": "17,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:40",
+            "keyStrokeInfo": "",
+            "position": "17,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:40",
+            "keyStrokeInfo": "",
+            "position": "17,18"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:41",
+            "keyStrokeInfo": "",
+            "position": "17,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sun Jul 25 2021 22:06:43",
+            "keyStrokeInfo": "def __init__(self, head=None):\r\n        self.head = head\r\n",
+            "position": "17,5"
+        }
+    ]
+}
