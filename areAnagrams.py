@@ -12,6 +12,12 @@
 
 def areAnagrams(s1, s2):
     # Your code goes here...
-    pass
+    if(sorted(s1) == sorted(s2)):
+        return True
+    else:
+        return False
+
+k = areAnagrams("listen","silent")
+print(k)
 
 # write your test cases here...
