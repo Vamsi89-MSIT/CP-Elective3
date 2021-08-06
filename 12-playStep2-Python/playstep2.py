@@ -97,3 +97,5 @@ def playstep2(hand, dice):
         new_hand = diceToOrderedHand(t1, t2, t3)
 
         return new_hand, dice // 100
+
+#https://github.com/Chiver/15-112-Fundamentals-of-Programming/blob/master/hw1_Version2.py
