@@ -29,3 +29,4 @@ def binary_search(input_array, value):
 	       input_array = input_array[(input_array.index(middle_element)+1):]
 
     return -1
+#https://github.com/VineetPrasadVerma/Udacity-DataStructures-And-Algorithms-In-Python/blob/master/BinarySearch.py
