@@ -10,3 +10,4 @@ def fun_recursions_alternatingsum(l):
 	else:
 		t = l[0]-fun_recursions_alternatingsum(l[1:])
 		return t
+#https://www.geeksforgeeks.org/python-alternate-element-summation-in-list/
