@@ -41,3 +41,5 @@ class BST(object):
             else:
                 self.root = self.root.left
         return False
+
+#took reference from geeks for geeks and geeks and https://github.com/grantgasser/udacity-data-structures-algorithms/blob/master/binarytree.py
