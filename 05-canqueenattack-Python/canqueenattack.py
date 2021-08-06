@@ -11,3 +11,5 @@ def canqueenattack(qR, qC, oR, oC):
     if abs(qR - oR) == abs(qC - oC):
         return True    
     return False
+
+#took reference from previous cspp module
