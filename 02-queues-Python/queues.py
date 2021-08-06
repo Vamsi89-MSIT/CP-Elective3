@@ -14,3 +14,5 @@ class Queue:
         return self.storage[0]  
     def dequeue(self):
         return self.storage.pop(0)  
+
+#https://jmlb.github.io/coding/2016/12/16/queues/
