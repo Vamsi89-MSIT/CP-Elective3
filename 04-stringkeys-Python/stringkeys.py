@@ -35,4 +35,5 @@ class HashTable(object):
         y=ord(string[0]) * 100 + ord(string[1])
         return y
 
+#http://www.openbookproject.net/books/pythonds/SortSearch/Hashing.html
 
