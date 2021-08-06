@@ -59,4 +59,4 @@ locations['Africa']={'Egypt':['Cairo']}
 locations['Asia']['India']=['Bangalore']
 locations['North America']['USA'].append('Atlanta')
 
-#took reference from geeks for geeks
+#took reference from geeks for geeks and https://hackmd.io/@qhJ_4BzgRru-FNndYXQF2w/B187_MCKr
