@@ -16,3 +16,4 @@ def dicetoorderedhand(a, b, c):
 	s = min(a,b,c)
 	m = a + b + c - l - s
 	return l*100 + m*10 + s
+#https://github.com/Chiver/15-112-Fundamentals-of-Programming/blob/master/hw1_Version2.py
